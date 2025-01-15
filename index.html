@@ -8,6 +8,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
+        <script> let baseUrl = ''; if (document.body.classList.contains('sites')) { baseUrl = 'https://sites.google.com/view/learn-sci'; } else if (document.body.classList.contains('github')) { baseUrl = 'https://learnscience.github.io'; } document.querySelectorAll('li a').forEach(function(anchor) { anchor.href = baseUrl + anchor.getAttribute('href'); }); </script>
         <style>
             body {
               display: flex;
@@ -246,7 +247,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class="sites">
         <div class="top-date">
             <div class="inner-date">
                 <div class="center-content">
